@@ -1,0 +1,58 @@
+< THE SYMBOL TABLE >  moda.exe_  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+DATOS                    	00000     	-5        	SEGMENT   	(ITSELF)  
+LISTA                    	00000     	1         	VAR       	DATOS     
+X                        	00007     	1         	VAR       	DATOS     
+Y                        	00008     	1         	VAR       	DATOS     
+MEDIA                    	00009     	1         	VAR       	DATOS     
+MODA                     	0000A     	1         	VAR       	DATOS     
+PILA                     	00001     	-5        	SEGMENT   	(ITSELF)  
+CODIGO                   	00005     	-5        	SEGMENT   	(ITSELF)  
+INICIO                   	00000     	-1        	FAR       	CODIGO    
+INSERTAR                 	00067     	-1        	LABEL     	CODIGO    
+SUMA1                    	00091     	-1        	LABEL     	CODIGO    
+PROMEDIO                 	000A1     	-1        	LABEL     	CODIGO    
+MEDIANA                  	0010B     	-1        	LABEL     	CODIGO    
+CICLO_MODAL              	00172     	-1        	LABEL     	CODIGO    
+CASO1                    	0017D     	-1        	LABEL     	CODIGO    
+CASO2                    	00186     	-1        	LABEL     	CODIGO    
+CASO3                    	0018F     	-1        	LABEL     	CODIGO    
+INC_POS                  	0019E     	-1        	LABEL     	CODIGO    
+LA_MODA                  	001A1     	-1        	LABEL     	CODIGO    
+SALIR                    	001F0     	-1        	LABEL     	CODIGO    
+SCAN_NUM                 	00234     	-1        	NEAR      	          
+NEXT_DIGIT_LOC1TMP       	00240     	-1        	LABEL     	          
+NOT_CR_LOC4TMP           	00253     	-1        	LABEL     	          
+BACKSPACE_CHECKED_LOC2TMP	00275     	-1        	LABEL     	          
+OK_AE_0_LOC4TMP          	0027B     	-1        	LABEL     	          
+REMOVE_NOT_DIGIT_LOC4TMP 	0027F     	-1        	LABEL     	          
+OK_DIGIT_LOC4TMP         	00299     	-1        	LABEL     	          
+SET_MINUS_LOC1TMP        	002B5     	-1        	LABEL     	          
+TOO_BIG2_LOC2TMP         	002BD     	-1        	LABEL     	          
+TOO_BIG_LOC2TMP          	002C2     	-1        	LABEL     	          
+STOP_INPUT_LOC3TMP       	002E6     	-1        	LABEL     	          
+NOT_MINUS_LOC3TMP        	002F0     	-1        	LABEL     	          
+MAKE_MINUS_LOC1TMP       	002F4     	1         	VAR       	          
+TEN_LOC1TMP              	002F5     	2         	VAR       	          
+SKIP_PROC_SCAN_NUM_LOC3TMP	002F7     	-1        	LABEL     	          
+PTHIS                    	002F9     	-1        	NEAR      	          
+NEXT_CHAR_LOC5TMP        	00300     	-1        	LABEL     	          
+PRINTED_LOC5TMP          	0030E     	-1        	LABEL     	          
+TEMP1_LOC5TMP            	00316     	2         	VAR       	          
+SKIP_PROC_PTHIS_LOC5TMP  	00318     	-1        	LABEL     	          
+CLEAR_SCREEN             	0031A     	-1        	NEAR      	          
+SKIP_PROC_CLEAR_SCREEN_LOC6TMP	0034C     	-1        	LABEL     	          
+PRINT_NUM_UNS            	0034E     	-1        	NEAR      	          
+BEGIN_PRINT_LOC7TMP      	0035D     	-1        	LABEL     	          
+CALC_LOC7TMP             	0036B     	-1        	LABEL     	          
+SKIP_LOC7TMP             	0037F     	-1        	LABEL     	          
+PRINT_ZERO_LOC7TMP       	0038F     	-1        	LABEL     	          
+END_PRINT_LOC7TMP        	00397     	-1        	LABEL     	          
+TEN_LOC7TMP              	0039C     	2         	VAR       	          
+SKIP_PROC_PRINT_NUM_UNS_LOC8TMP	0039E     	-1        	LABEL     	          
+===================================================================================================
+[ 25/06/2023  --  2:22:19 ] 
+< END >
+ 
