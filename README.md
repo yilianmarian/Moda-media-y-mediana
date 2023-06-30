@@ -3,7 +3,6 @@ La tarea consistió en desarrollar una aplicación en lenguaje ensamblador que c
 Primeramente el programa te pide introducir una lista ordenada de números por lo que el usuario debe introducir el primer número presionar ENTER, introducir el segundo y presionar ENTER y así consecutivamente hasta completar la lista la cual tiene un tamaño de 7 números en total. Luego de realizar lo anteriormente descrito se muestran los resultados de la mediana, la media y la moda para luego mostrarle un cartel al usuario HASTA LUEGO, GRACIAS POR TODO.
 
 El programa contiene tres segmentos:
-
  Segmento de datos: que es el almacén de las variables utilizadas
  Segmento de pila: donde se declara la capacidad de la pila(DB 64 DUP(?))
  Segmento de codigo: donde  va todo el código del programa y a continuación mencionaré lo desarrollado en este
